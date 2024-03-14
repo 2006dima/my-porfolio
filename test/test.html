@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Initial CSS */
+        .navigation-language-bar a:nth-child(2) img {
+            display: none; /* Set the default display value for all images to block */
+        }
+
+        .navigation-language-bar.displayLanguage a:nth-child(1) img {
+            display: none;
+      }
+
+
+      .navigation-language-bar.displayLanguage a:nth-child(2) img {
+    display: block;
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Your HTML structure -->
+    <div class="navigation-language-bar">
+        <a href="#" onclick="toggleDisplayLanguage()">
+            <img src="image1.jpg" alt="Image 1">
+        </a>
+        <a href="#" onclick="toggleDisplayLanguage()">
+            <img src="image2.jpg" alt="Image 2">
+        </a>
+    </div>
+
+    <script>
+        // JavaScript to toggle the class
+        function toggleDisplayLanguage() {
+            var element = document.querySelector('.navigation-language-bar');
+
+            if (element.classList.contains('displayLanguage')) {
+                element.classList.remove('displayLanguage');
+            } else {
+                element.classList.add('displayLanguage');
+            }
+        }
+    </script>
+
+</body>
+</html>

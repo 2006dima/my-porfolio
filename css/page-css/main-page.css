@@ -1,0 +1,11 @@
+.home-page-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 50px;
+}
+.home-page-content p{
+    max-width: 600px;
+    width: 100%;
+}

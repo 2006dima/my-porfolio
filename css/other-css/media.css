@@ -1,0 +1,15 @@
+@media only screen and (max-width: 720px){
+    .navigation-language-bar {
+        display: none;
+    }
+    .toggle-dark-and-light-mode-section {
+        display: none;
+    }
+    .navigation .change-pages-section {
+        display: none;
+    }
+    .burger-section i{
+        display: block;
+    }
+
+}
