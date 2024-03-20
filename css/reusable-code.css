@@ -73,6 +73,7 @@
 .toggle-dark-and-light-mode-section i:nth-child(2) {
     display: none;
 }
+
 /* toggle dark and light mode, burger section  */
 
 .burger-menu-section .burger-nav  {
@@ -120,6 +121,9 @@
     border-radius: 10px;
     width: 50px;
 }
+.burger-section .burger-dlmode .fa-sun {
+    display: none;
+}
 .burger-section .burger-dlmode i {
     font-size: 16px;
     cursor: pointer;
@@ -127,9 +131,6 @@
 .burger-section .burger-clangauge img {
     width: 24px;
     cursor: pointer;
-}
-.burger-section .burger-dlmode i:nth-child(2){
-    display: none;
 }
 
 .burger-section .burger-clangauge img:nth-child(2){
@@ -161,6 +162,24 @@ body {
 }
 .toggle-dark-mode .burger-dlmode {
     border-color: white;
+}
+.toggle-dark-mode .toggle-dark-and-light-mode-section {
+    justify-content: flex-end;
+}
+.toggle-dark-mode .toggle-dark-and-light-mode-section .fa-moon{
+    display: none;
+}
+.toggle-dark-mode .toggle-dark-and-light-mode-section .fa-sun{
+    display: block;
+}
+.toggle-dark-mode .burger-dlmode {
+    justify-content: flex-end;
+}
+.toggle-dark-mode .burger-dlmode .fa-moon {
+    display: none;
+}
+.toggle-dark-mode .burger-dlmode .fa-sun {
+    display: block;
 }
 a {
     color: black;
