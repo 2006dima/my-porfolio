@@ -8,7 +8,7 @@
   .navigation .change-pages-section {
     display: none;
   }
-  .burger-section i {
+  .burger-section .fa-bars {
     display: block;
   }
   .contact-page-content {

@@ -88,9 +88,9 @@
     justify-content: flex-start;
     position: fixed;
     overflow-x: hidden;
-    transform: translate(100%);
+    transform: translate(-100%);
     top: 0;
-    right: 0;
+    left: 0;
     width: 150px;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.623);
@@ -105,11 +105,9 @@
     align-items: center;
     justify-content: space-around;
 }
-.burger-section:active .burger-menu-section {
-    transform: translate(0%);
-    opacity: 1;
-}
-.burger-section:hover .burger-menu-section {
+
+
+.show-burger-menu {
     transform: translate(0%);
     opacity: 1;
 }
@@ -136,10 +134,11 @@
 .burger-section .burger-clangauge img:nth-child(2){
     display: none;
 }
-.burger-section i{
+.burger-section .fa-bars{
     display: none;
     font-size: 27px;
     cursor: pointer;
+   
 }
 
 /* change colors of elements and background of body */
